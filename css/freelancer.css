@@ -121,6 +121,10 @@ h3 {
     font-size: 31px;
 }
 
+.row {
+	background-color: #ecf0f1;
+}
+
 .img-responsive {
     margin-right: auto;
     margin-left: auto;
