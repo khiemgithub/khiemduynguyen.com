@@ -112,6 +112,10 @@ h3 {
     font-size: 31px;
 }
 
+.img-responsive {
+    margin-right: auto;
+    margin-left: auto;
+}
 
 .background {
     color: #4f6f8f;
