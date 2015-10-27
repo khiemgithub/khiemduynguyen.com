@@ -121,16 +121,14 @@ h3 {
     font-size: 31px;
 }
 
-.row 1 {
+.row1 {
 	background-color: #ecf0f1;
-	width: 1920px;
 	margin-right: auto;
 	margin-left: auto;
 }
 
-.row 2 {
+.row2 {
 	background-color: #ffffff;
-	width: 1920px;
 	margin-right: auto;
 	margin-left: auto;
 }
