@@ -121,18 +121,6 @@ h3 {
     font-size: 31px;
 }
 
-.row1 {
-	background-color: #ecf0f1;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-.row2 {
-	background-color: #ffffff;
-	margin-right: auto;
-	margin-left: auto;
-}
-
 .img-responsive {
     margin-right: auto;
     margin-left: auto;
@@ -151,10 +139,17 @@ h3 {
 
 .success {
     background-color: #fff;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 section {
     padding: 50px 0;
+    background-color: #ecf0f1;
+    max-width: 1920px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 section h2 {
