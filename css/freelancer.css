@@ -106,6 +106,7 @@ h3 {
 
 .container-special {
     background-color: #18bc9c;
+    max-width: 1920px;
 }
 
 .navkhiem {
