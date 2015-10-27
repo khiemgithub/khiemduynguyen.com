@@ -121,8 +121,18 @@ h3 {
     font-size: 31px;
 }
 
-.row {
-	background-color: #ecf0f1;
+.row 1 {
+	background-color: #bdc3c7;
+	width: 1920px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.row 2 {
+	background-color: #ffffff;
+	width: 1920px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .img-responsive {
