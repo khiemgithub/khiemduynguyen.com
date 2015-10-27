@@ -112,6 +112,10 @@ h3 {
     font-size: 31px;
 }
 
+.text-center {
+	max-width: 1920px
+}
+
 .img-responsive {
     margin-right: auto;
     margin-left: auto;
