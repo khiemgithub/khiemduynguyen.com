@@ -140,6 +140,10 @@ h3 {
     margin-right: auto;
 }
 
+iframe {
+    margin-left: 215px;
+}
+
 section {
     padding: 50px 0;
     background-color: #ecf0f1;
