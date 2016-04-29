@@ -140,10 +140,6 @@ h3 {
     margin-right: auto;
 }
 
-iframe {
-    margin-left: 50px;
-}
-
 .collabwelcome {
     margin-bottom: 100px;
 }
@@ -375,8 +371,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 .portfolio-modal .modal-content img {
-    margin-bottom: 30px;
-    margin-top: 15px;
+    margin-bottom: 20px;
 }
 
 .portfolio-modal .modal-content .item-details {
