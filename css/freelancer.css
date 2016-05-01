@@ -91,10 +91,6 @@ h3 {
     outline: 0;
 }
 
-.navbar .navbar-nav {
-    letter-spacing: 1px;
-}
-
 .navbar .navbar-nav li a:focus {
     outline: 0;
 }
@@ -140,6 +136,10 @@ h3 {
     margin-right: auto;
 }
 
+.process {
+    background-color: #fff;
+}
+
 .collabwelcome {
     margin-bottom: 100px;
 }
@@ -159,7 +159,7 @@ section h2 {
 }
 
 .page-scroll {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .passion {
