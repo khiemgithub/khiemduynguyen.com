@@ -1,53 +1,3 @@
-/*
-====================================================
-* [Master Stylesheet]
-
-  Theme Name : MaterialX
-  Version    :  1.1
-  Author     :  Bdinfosys
-  Author URI :  http://themeforest.net/user/bdinfosys
-====================================================
-
-   TOC:
-  =======
-
-  1. Primary Styles
-
-  2. Custom Utility Classes
-
-  3. Navigation Menu Styles
-
-  4. Home Section Styles
-
-  5. About Me Section Styles
-
-  6. Skills Section Styles
-
-  7. Experience Section Styles
-
-  8. Education Section Styles
-
-  9. Portfolio Styles
-
-  10. Testimonials Styles
-
-  11. Blog Styles
-
-  12. Fun Facts Styles
-
-  13. Contact Styles
-
-  14. Footer Styles
-
-  15. Custom Styles
-
-===================================================== */
-
-
-/* --------------------------------- */
-/* 1. Primary Styles
- ----------------------------------- */
-
 html {
     font-size: 1em;
 }
@@ -1883,3 +1833,7 @@ span.num {
 
 
 /* Add your CSS below */
+
+#contactinfo {
+    font-size: 20px;
+}
