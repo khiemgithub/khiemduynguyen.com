@@ -1831,9 +1831,15 @@ span.num {
   }
 }
 
-
-/* Add your CSS below */
-
 #contactinfo {
     font-size: 20px;
+}
+
+
+#portfolio {
+    padding-bottom: 52px;
+}
+
+#inspiration {
+    padding-bottom: 87px;
 }
