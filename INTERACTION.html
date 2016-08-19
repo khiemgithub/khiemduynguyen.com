@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <title>Ask, Learn, Look, Try: A Mini Project</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+
+  <meta property="og:url" content="http://www.khiemduynguyen.com/INTERACTION.html" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Ask, Learn, Look, Try: A Mini Project" />
+  <meta property="og:description" content="How playing with a bunch of cards helped me better appreciate user-centered design." />
+  <meta property="og:image" content="http://www.khiemduynguyen.com/images/INTERACTIONimages/INTERACTIONcover.jpg" />
+
+
+  <!-- Favicon-->
+  <link rel="shortcut icon" href="images/favicon.png" >
+  
+  <!-- Stylesheets-->
+  <link rel="stylesheet" href="assets/css/normalize.css">
+  <link rel="stylesheet" href="assets/font/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/libs/materialize/css/materialize.min.css" media="screen,projection" />
+  <link rel="stylesheet" href="assets/css/bootstrap.css" media="screen,projection" />
+  <link rel="stylesheet" href="assets/libs/owl-carousel/owl.carousel.css" media="screen,projection" />
+  <link rel="stylesheet" href="assets/libs/owl-carousel/owl.transitions.css" media="screen,projection" />
+  <link rel="stylesheet" href="assets/libs/owl-carousel/owl.theme.css" media="screen,projection" />
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="assets/css/blog.css">
+  
+  <!-- Choose your default colors -->
+  <!--<link rel="stylesheet" href="assets/css/colors/color1.css">-->
+  <link rel="stylesheet" href="assets/css/colors/color6.css"> 
+  
+
+  <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+  <!-- Preloader --> 
+    <div id="preloader">
+      <div class="loader">
+            <svg class="circle-loader" height="50" width="50">
+              <circle class="path" cx="25" cy="25" r="20" fill="none" stroke-width="6" stroke-miterlimit="10" />
+            </svg>
+        </div>    
+    </div><!--preloader end-->
+
+  <div id="app">
+  <!-- header navigation -->
+    <header id="navigation" class="root-sec white nav">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="nav-inner">
+              <nav class="primary-nav">
+                <div class="clearfix nav-wrapper">
+                  <a href="index.html" class="left brand-logo"><img src="images/logo.png" alt="">
+                  </a>
+                  <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+                  <ul class="right static-menu">
+                      <div class="search-form-wrap hide">
+                        <form action="#" class="">
+                          <input type="search" class="search">
+                          <button type="submit"><i class="mdi-action-search"></i>
+                          </button>
+                        </form>
+                      </div>
+                    </li>
+                    <li>
+                      <a class="dropdown-button blog-submenu-init" href="#!" data-activates="dropdown1">
+                        <i class="mdi-navigation-more-vert right"></i>
+                      </a>
+                    </li>
+                  </ul>
+                  <ul class="inline-menu side-nav" id="mobile-demo">
+
+                  <!-- Mini Profile // only visible in Tab and Mobile -->
+                    <li class="mobile-profile">
+                     <div class="profile-inner">
+                        <div class="pp-container">
+                            <img src="images/person.png" alt="">
+                        </div>
+                        <h3>Khiem Nguyen</h3>
+                        <h5>UI/UX Designer</h5>
+                      </div>
+                    </li> <!-- mini profile end-->
+                    <li><a href="index.html" data-section="#home" class="menu-smooth-scroll"><i class="fa fa-home fa-fw"></i>Home</a>
+                    </li>
+                    <li><a href="blog.html" data-section="#blog" class="menu-smooth-scroll"><i class="fa fa-pencil fa-fw"></i>Blog</a>
+                    <li><a href="KN_Resume.pdf" target="_blank"><i class="fa fa-file-text fa-fw"></i>Resume</a>
+                    </li>
+                  </ul>
+                  <ul id="dropdown1" class="inline-menu submenu-ul dropdown-content">
+                    <li><a href="EMPATHY.html">Designing With Empathy</a>
+                    </li>
+                    <li><a href="PERSONA.html">Guiding Your Design With Personas</a>
+                    </li>
+                    <li><a href="PAPER.html">Iterating With Paper Prototyping</a>
+                    </li>
+                    <li><a href="OBSERVE.html">Observing The User Experience</a>
+                    </li>
+                    <li><a href="PRINCIPLE.html">My 10 Design Principles</a>
+                    </li>
+                    <li><a href="VIETNAM.html">Vietnam-China Tension: A Dire Future?</a>
+                    </li>
+                    <li><a href="BPHONE.html">Vietnam's BPhone: Where Do We Stand?</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header> <!-- header navigation end -->
+
+ <!-- Banner start -->
+    <section id="banner" class="root-sec brand-bg padd-tb-55 single-banner blogpage-banner-wrap">
+      <div class="container">
+        <div class="row">
+          <div class="clearfix blog-banner-text blog-single-banner">
+            <div class="col-md-12">
+              <h2 class="title">Ask, Learn, Look, Try: A Mini Project</h2>
+              <ul class="clearfix blog-post-meta">
+                <li>By <a href="https://www.linkedin.com/in/kylekhiemnguyen">Khiem Nguyen</a>
+                </li>
+                <li>November 02, 2015</li>
+                <li>User Research
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> <!-- ./Banner end -->
+
+     <!-- Blog Post Container-->
+    <section id="all-posts" class="root-sec grey lighten-5 blogpage-posts-wrap">
+      <div class="container">
+        <div class="row">
+          <div class="clearfix all-blog-post blog-inner with-sidebar">
+
+          <!-- post container start-->
+            <div class="col-sm-8">
+              <article class="single-post-page">
+                <div class="thumb-wrap">
+                  <img src="images/INTERACTIONimages/INTERACTIONintro.jpg" alt="">
+                </div>
+                <div class="single-post-content">
+                  <p class="italic">(Picture from <a href="https://www.ideo.com/">IDEO</a>)</p>
+                  <h2>Different Methods For Different Problems</h2>
+                  <p>Understanding users, their activities, the contexts in which their tasks are carried out, and their experiences and attitudes is crucial to designing good user experience in products and technologies. However, there is no one single way to understand users and their needs and desires. Each situation is different, each user group is different, and each project is different. In addition, resources such as time and budget may also play a role in determining which methods to use for understanding users.</p>
+                  <h2>The IDEO Methods</h2>
+                  <p>Typically, designers almost always use more than one method for any given project, as well as use a variety of methods to understand users that complement each other’s strengths and weaknesses. Using multiple methods to help understand users is called triangulation, the designers at IDEO have come up with a set of 51 different methods across four different areas that they use to understand users. These areas are:</p>
+                  <ul>
+                    <li>ASK them how to help.</li>
+                    <li>LOOK at what they do.</li>
+                    <li>LEARN from the facts you gather.</li>
+                    <li>TRY it yourself.</li>
+                  </ul>
+                  <p>To help designers understand and explore all of these ideas, they created a set of Method Cards, modeled after a deck of playing cards (with the four method areas each being a “suit”). Thus, users can scan through the deck of cards for ideas on which methods might be useful in any given situation.</p>
+
+                  <h2>A Mini Project</h2>
+                  <p>Like with every other tool I come across, I decided to test the practicality as well as application of these IDEO Method Cards with a real-life mini project. There is an abundance of design problems existing in various aspects of my daily, and as such it didn't take me long to come up with one design question:</p>
+                  <blockquote>"How could a system support travelers while on vacation?"</blockquote>
+                  <p>The goal couldn't be clearer. To pick one method from the four categories above and accordingly execute each of the four methods in order to find an answer to the question. With a pack of cards and a curious mind, I delved myself into the project filled with doubs and excitements. Be warned, though, cause this is going to one LONG read :-)</p>
+
+                  <h3>Ask - Five Why's</h3>
+                  <p> I chose to start with the “Five Why’s” method from the “Ask” category. According to IDEO, this method is conducted by "asking "Why?" questions in response to five consecutive answers". I felt like this was a good way to start since it allowed me to quickly grasp a quick overview of the inherent motives or causes underlying users’ behavior and attitudes towards travelling for vacations.</p>
+                  <p>Since travelling for vacations is a popular activity experienced by a diverse variety of users, it wasn’t hard to find one who could represent the target audience. To save time, I decided to invite ten individuals to engage in this mini-interview separately. Out of the ten participants, two are UW students, one is a bus driver, one is a Professor on-campus, and the last one is my mother.</p>
+                  <img src="images/INTERACTIONimages/INTERACTIONpic.png" alt="">
+                  &nbsp;
+                  <p>Through the “Five Why’s” questions, I gave myself an opportunity to really dig deep into the emotional factors that effectively serve as inherently influential factors of users’ behavior and attitudes towards travelling for vacations, and yet those that are typically not as easily revealed above the surface by their respective owners. What I truly like about this feature is how quick and easy the process could be for researchers to gain insight into such a personal aspect of the users’ life – with only five simple questions. Although the data collected would still be relatively broad and may need further elaboration via other methods, it provides a perfect starting point for assumptions to be made about the users’ context. Accordingly, deciding on which other research methods to choose as a next step would become a much easier task.</p>
+                  <p>Below are two underlying reasons why participants may want to travel abroad during their vacations (it was certainly delightful to see how these seemingly irrelevant factors may have a substantial influence over a person’s decision to do something):</p>
+                  <ul>
+                    <li>Because families are an important component of one’s personal life.</li>
+                    <li>Because learning about new cultures may help one to solve problems more creatively.</li>
+                  </ul>
+                  <p>If I have to conduct this mini exercise again, instead of asking “Why do you travel abroad for vacations?” as my first question, I will ask “Why do you go on vacations?” – I feel like the responses I could get from the latter will provide some interesting and different implications for another group of users that I have yet to discover.</p>
+
+                  <h3>Learn - Character Profiles</h3>
+                  <p>To better visualize how potential users in the real world would appear to be, I went on to create “Character Profiles” in the “Learn” category as a next step in the research process. Now that I’ve come to understand a couple of broad - but directive - underlying causes that are influential over users’ behaviors and attitudes, I believe this is a good time to dig even deeper into these characteristics of their life and strive to elaborate on such behaviors/attitudes. The ultimate goal is to obtain a thorough understanding of different user types and accordingly the probable methods that could be applied to target them.</p>
+                  <p>Finding participants who plan to travel this week, and would be willing to grant me the time and space to observe them, was definitely a challenging task. Furthermore, I definitely would not have been able to follow them to the end of their travel destinations, even if finding them was actually possible in the first place.</p>
+                  <img src="images/INTERACTIONimages/INTERACTIONpic2.png" alt="">
+                  &nbsp;
+                  <p>Thankfully, my housemate and his girlfriend (both of whom are living in the same house as I am) announced that they were going on a short trip to Las Vegas this past weekend. Of course I saw the immediate opportunity to incorporate their upcoming trip into my project. I asked if they could allow me to carefully observe their preparation procedures for the trip, and even suggested to follow them to the airport – first as a friendly courtesy, and second to extend my observation as far as possible. They both happily accepted the request, and as such I made sure to take down as many valuable notes as I possibly could throughout the Friday night of their preparation, as well as the Saturday morning of their departure (I also included some minor observations upon their return to Seattle on Monday evening). Albeit challenging, I tried to be as discrete as possible in my work. My main goal was to be able to observe my friend and his girlfriend in their most natural state, without making them feel somewhat uncomfortable – a factor that could easily have affected their decision-making mechanism and subsequent actions.</p>
+                  <p>It was definitely interesting to observe the couple concurrently. From a researcher’s perspective, they were definitely two different types of users who were displaying two sets of very different characteristics. In this regard, I think the most important take-away from this
+                  discovery is the undoubtable existence of different user types in the market, and how the variance of these differences would shape the various forms of communication and/or content strategy used to target these users. For example, while my friend is very laid-back with his preparation for the trip – multi-tasking between packing his small backpack and playing games – his girlfriend was meticulous to the smallest details, and eventually ended up with one big luggage and one extra carry-on.</p>
+                  <p>One definite feedback following the conclusion of the process was my inability to observe their actions related to this trip in advance to the preparation phase (i.e. looking for tour packages, deciding on a package, booking hotels/flights etc.), as well as those beyond the airport’s security gates. Since travelling is an experience that encompasses a collection of stages and tasks that start with an idea in one’s head, and ends when he steps back into his home after the trip, or probably even long after the trip had ended, there were definitely a lot of observations I could have made but wasn’t able to do so, given the prevalent lack of time. If I have a chance to accompany them on a future trip as a third companion, I definitely would have conducted a more end-to-end observational research on their travel experience.</p>
+
+                  <h3>Look - Fly On The Wall</h3>
+                  <p>The “Fly on the wall” method under “Look” came to my knowledge along with “Character Profiles” from the “Learn” category presented above. My original goal was to actually combine exercises from these two categories collectively, since I believe the benefits of each could definitely be further optimized if they could complement one another. As IDEO describes, this method entails "observing and recording behavior within its context, without interfering with people's activities".</p>
+                  <p>In this respect, while observing my friend and his girlfriend preparing for their trip out of town, I made sure that not only was I trying to build two separate archetypes to represent the two different user groups, but simultaneously noting down various aspects of their actions and how that relate to their behavior/attitude toward travelling overall.</p>
+                  <img src="images/INTERACTIONimages/INTERACTIONpic3.png" alt="">
+                  &nbsp;
+                  <p>At first, I was unsure of whether “Fly on the Wall” really differs that much from “Character Profiles”, since both methods rely heavily on observational research. A deeper study revealed that while “Fly on the Wall” strives to emphasize the users’ actions and realistic task flows, “Character Profiles” are perhaps more directed toward the underlying emotional factors that influence their decisions. With this in
+                  mind, I made some valuable observations regarding the participants’ actions. Here’re a selected number of what I perceive to be the more important ones:</p>
+                  <p>My friend</p>
+                  <ul>
+                    <li>Stays within a small area while packing (his bedroom).</li>
+                    <li>Prefers to multi-task (i.e. playing games while packing).</li>
+                    <li>Tends to be more quiet and doesn’t speak much.</li>
+                    <li>Calmer and more laid-back.</li>
+                  </ul>
+                  <p>His girlfriend</p>
+                  <ul>
+                    <li>Roams around the whole house looking for things that could be brought on the trip.</li>
+                    <li>Focuses on one specific task: packing.</li>
+                    <li>Likes to speak her mind up throughout the process, especially by asking questions.</li>
+                    <li>ends to get a bit panic and agitated, especially when certain items cannot be found.</li>
+                  </ul>
+                  <p>Just like my experience with “Character Profiles”, I didn’t get the chance to conduct an end-to- end process of “Fly on the Wall” observational research with the participants. Overall, the only significant observations I made were during the preparation stage, as well as a few activities conducted at the airport prior to the security gate. This accordingly limited my knowledge of the participants’ experience to only a small portion of their entire travel experience – which, again, should have taken place the moment the idea of taking a trip out of town occurred in their minds, and ended when stories related to the trip were no longer being told. Similarly, perhaps committing myself to travelling with the couple would have provided me more time and space to pay more attention to how they would have acted in each and every stage throughout the entire travel experience.</p>
+
+                  <h3>Try - Scenarios</h3>
+                  <p>Of the four categories, “Try” is my personal favorite. I think not only does it give me a lot of opportunities to step inside users’ shoes, and accordingly better understand their experience, “Try” methods are really effective at helping researchers solidify a set of foundational behavioral/attitudinal features which users commonly express – those that could help build an early list of existing user requirements, which themselves could be transformed into potential product features/specifications. As such, it certainly helps to transition the research phase smoothly into the design phase.</p>
+                  <p>In this respect, as I went through the list of “Try” methods from the IDEO Method Cards, I immediately saw “Scenarios” as a feasible option. Since I’ve created scenarios in my previous work experience, I truly appreciate their ability to validate a prospective solution by matching it with the users’ context.</p>
+                  <img src="images/INTERACTIONimages/INTERACTIONpic4.png" alt="">
+                  &nbsp;
+                  <p>Using the data and feedback collected from previous research activities (from “Ask”, “Learn”, and “Look”), I took out a pencil, a piece of paper, and simply set out to sketch a number of
+                  different scenarios which I thought were relevant. One great benefit of leaving “Scenarios” to the last exercise is that a number of potential solutions are already beginning to visualize. In this respect, the “Scenarios” mainly serve as a medium through which these ideas can be tested by relating them to the context within which users are situated.</p>
+                  <p>In the end, I came up with fifteen different scenarios where design problems related to travelling may arise, and subsequently opportunities where brainstormed design solutions can be applied. In order to fully address the entirety of the travel experience as a whole, I made sure to have these fifteen scenarios appropriately pertained to five different stages typically experienced throughout the trip:</p>
+                  <ul>
+                    <li>Planning for the trip.</li>
+                    <li>Preparing for the trip.</li>
+                    <li>At the airport.</li>
+                    <li>During the flight.</li>
+                    <li>Exploring the destination.</li>
+                  </ul>
+                  <p>The biggest conclusion drawn from the creation of these scenarios is the users’ emphasis on speed and convenience as the two biggest desires for a positive travel experience. This is reflected in all fifteen scenarios, where users may need to achieve their objectives quickly – and to be able to do so conveniently. For example, during the preparation stage for the trip, users want to know what kind of clothing they should bring to their destination of choice, but can’t find a single source where they can find such information quickly and easily. Speed and convenience, in this case, are two factors that undoubtedly need more attention.</p>
+                  <p>If I have to redo this exercise, I definitely will come up with more than fifteen scenarios. At the end of the day, our primary goal is to take a shot at understanding as closely as possible what the users’ travel experience is like. As mentioned, the user task flow for such an experience is one that involves many steps and external factors that could influence its nature. The process of developing solutions that could hopefully resolve the stated design question, hence, would ideally need to begin with a complete grasp of how these steps could come into play and subsequently shape the experience users would relate to.</p>
+                </div>
+
+                <div class="clearfix post-footer">
+                <div class="left post-like"> <span class="numb">Like what you saw? SHARE IT :-)</span></div>
+                  <ul class="clearfix right share-post">
+                    <li><a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),'facebook-share-dialog','width=626,height=436');return false;"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li><a href="https://www.linkedin.com/shareArticle?mini=true&url=http://www.khiemduynguyen.com/INTERACTION.html" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    </li>
+                    <li><a href="https://twitter.com/intent/tweet?text=Ask,%20Learn%20Look%20Try:%20A%20Mini%20Project%20http://goo.gl/X1rJ8G%20@khiem9692"><i class="fa fa-twitter"></i></a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="fb-comments" data-href="http://www.khiemduynguyen.com/BPHONE.html" data-width="100%" data-width="650" data-numposts="3" data-mobile="Auto-detected"></div>
+              </article>
+              </article>
+            </div> <!-- ./post container end-->
+
+            <!-- Sidebar start-->
+            <div class="col-sm-4">
+              <div class="primary-sidebar">
+                <aside class="single-widget">
+                  <h2 class="widget-title">OTHER POSTS</h2>
+                  <ul>
+                    <li>
+                      <a href="EMPATHY.html">Designing With Empathy</a>
+                      <span>July 28, 2016</span>
+                    </li>
+                    <li>
+                      <a href="PERSONA.html">Guiding Your Design With Personas</a>
+                      <span>July 15, 2016</span>
+                    </li>
+                    <li>
+                      <a href="PAPER.html">Iterating With Paper Prototyping</a>
+                      <span>June 24, 2016</span>
+                    </li>
+                    <li>
+                      <a href="OBSERVE.html">Observing The User Experience</a>
+                      <span>June 11, 2016</span>
+                    </li>
+                    <li>
+                      <a href="PRINCIPLE.html">My 10 Design Principles</a>
+                      <span>May 19, 2016</span>
+                    </li>
+                     <li>
+                      <a href="VIETNAM.html">Vietnam-China Tension: A Dire Future?</a>
+                      <span>July 03, 2015</span>
+                    </li>
+                    <li>
+                      <a href="VIETNAM.html">Vietnam's BPhone: Where Do We Stand?</a>
+                      <span>May 27, 2015</span>
+                    </li>
+                  </ul>
+                </aside>
+
+                <aside class="single-widget">
+                  <h2 class="widget-title">Projects</h2>
+                  <ul>
+                    <li>
+                      <a href="GEproject.html">UX Design Internship @ GE</a>
+                      <span>June, 2016 - September, 2016</span>
+                    </li>
+                    <li>
+                      <a href="INRIXproject.html">Reimagining INRIX Traffic</a>
+                      <span>May, 2016</span>
+                    </li>
+                    <li>
+                      <a href="AWSproject.html">Usability Study for AWS IoT</a>
+                      <span>January, 2016 - March, 2016</span>
+                    </li>
+                    <li>
+                      <a href="HUSKYproject.html">Husky Yum iOS App</a>
+                      <span>September, 2015 - December, 2015</span>
+                    </li>
+                    <li>
+                      <a href="JOOMLAproject.html">Redesigning Joomla</a>
+                      <span>July, 2015 - March, 2016</span>
+                    </li>
+                    <li>
+                      <a href="PINKYproject.html">Pinky Swear Android App</a>
+                      <span>March, 2015 - March, 2016</span>
+                    </li>
+                  </ul>
+                </aside>
+                
+              </div>
+            </div> <!-- ./sidebar end-->
+          </div>
+        </div>
+      </div> <!-- ./container end-->
+    </section>  <!-- ./Blog Post Container end-->
+
+          </div>
+        </div>
+      </div> <!-- ./container end-->
+    </section>  <!-- ./Blog Post Container end-->
+
+<!-- Footer Start -->
+    <footer id="footer" class="root-sec white root-sec footer-wrap">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="clearfix footer-inner">
+              <ul class="left social-icons">
+                <li><a href="https://www.facebook.com/kymk96" class="tooltips tooltipped facebook" data-position="top" data-delay="50" data-tooltip="Facebook"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li><a href="https://www.linkedin.com/in/kylekhiemnguyen" class="tooltips tooltipped linkedin" data-position="top" data-delay="50" data-tooltip="Linkedin"><i class="fa fa-linkedin"></i></a>
+                </li>
+                <li><a href="https://www.twitter.com/khiem9692" class="tooltips tooltipped twitter" data-position="top" data-delay="50" data-tooltip="Twitter"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li><a href="https://pinterest.com/alexiusnguyen" class="tooltips tooltipped dribbble" data-position="top" data-delay="50" data-tooltip="Pinterest"><i class="fa fa-pinterest"></i></a>
+                </li>
+              </ul>
+              <div class="right copyright">
+                <p>Copyright &copy 2016 Khiem Duy Nguyen</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer> <!-- Footer End -->
+  </div> <!--#app end -->
+
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "http://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="assets/js/jquery.nicescroll.min.js"></script>
+  <script src="assets/libs/owl-carousel/owl.carousel.min.js"></script>
+  <script src="assets/libs/materialize/js/materialize.min.js"></script>
+  <script src="assets/js/common.js"></script>
+  <script src="//platform.twitter.com/widgets.js"></script>
+</body>
+
+</html>
