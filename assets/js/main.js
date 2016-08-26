@@ -352,11 +352,11 @@ $(document).ready(function($){
 	window.menuFun = menuFun;
 
 
-	/* Choose your navigation style */
+	/* Choose navigation style */
 
-	menuFun.intelligent_menu(); // Hide intelligently
+	// menuFun.intelligent_menu(); // Hide intelligently
 	// menuFun.fixed_menu(); // Always fixed
-	// menuFun.mobile_intelligent_menu(); // Hide on Mobile Devices
+	menuFun.mobile_intelligent_menu(); // Hide on Mobile Devices
 
 
 
