@@ -1777,3 +1777,12 @@ header.nav.hide-menu {
 #quote {
     margin-right: 1px;
 }
+
+#navigation {
+    position: fixed;
+    top: 0;
+}
+
+#banner {
+    margin-top: 80px;
+}
