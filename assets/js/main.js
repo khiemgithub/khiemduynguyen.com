@@ -354,9 +354,9 @@ $(document).ready(function($){
 
 	/* Choose navigation style */
 
-	// menuFun.intelligent_menu(); // Hide intelligently
-	// menuFun.fixed_menu(); // Always fixed
-	menuFun.mobile_intelligent_menu(); // Hide on Mobile Devices
+	//menuFun.intelligent_menu(); // Hide intelligently
+	menuFun.fixed_menu(); // Always fixed
+	//menuFun.mobile_intelligent_menu(); // Hide on Mobile Devices
 
 
 
