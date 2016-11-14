@@ -1,4 +1,5 @@
-AuthType Basic  
-AuthName "restricted area"  
-AuthUserFile googledesign.html.htpasswd  
+AuthName "Please enter your user name and password to view Re.V"
+AuthType Basic
+AuthUserFile /customers/4/9/4/khiemduynguyen.com/httpd.www/googledesign.html/.htpasswd
+AuthGroupFile /dev/null 
 require valid-user
