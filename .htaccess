@@ -1,0 +1,4 @@
+AuthType Basic  
+AuthName "restricted area"  
+AuthUserFile googledesign.html.htpasswd  
+require valid-user
