@@ -1801,3 +1801,8 @@ header.nav.hide-menu {
     margin-left: 50px;
     margin-bottom: 30px;
 }
+
+#accesspassword {
+    margin: auto;
+    text-align: center;
+}
