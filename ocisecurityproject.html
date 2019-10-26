@@ -140,23 +140,45 @@
                   <img src="images/OCISECURITYimages/ocisecurityintro.png" alt="">
                 </div>
                 <div class="single-post-content">
-                  <p class="italic">Larry Ellison speaking about the company's critical focus on Security (as part of its strategic investment into the cloud) at OpenWorld 2019 - Oracle's annual tech conference</p>
+                  <p class="italic">Larry Ellison speaking about the company's critical focus on Security (as part of its strategic investment into the cloud) at Oracle OpenWorld 2019 - Oracle's annual tech conference</p>
                   <h2>Security means business</h2>
-                  <p>Security is a major strategic focus at Oracle Cloud. As an organization, possessing a robust security posture would provide Oracle Cloud with the foundation that enable customers to trust it with their most valuable workloads. In this respect, the company's ability to provide leading security requires that it:</p>
+                  <p>Keeping Oracle Cloud Infrastructure (OCI) secure is a task of paramount importance that holds a central role in OCI's cloud and customer experience strategy. Ever since the conception of OCI, Larry Ellison has repeatedly pointed to Security as one of its top areas of focus. In fact, OCI's homegrown second-generation cloud infrastructure was built on top of a "fundamental re-architecture of the conventional public cloud, because “the current state of the art of cloud defenses is just not good enough, not even close,”" Oracle Executive Chairman and CTO Larry Ellison said during his keynote at the 2018 Oracle OpenWorld.</p>
+                  <p>As such, how well can OCI secure its cloud is a factor that possesses a direct business impact on how likely it is for the company to win its cloud market share.</p>
+                  <h2>Working backwards</h2>
+                  <p>As an organization, possessing a robust security posture would provide OCI with the foundation that enables customers to trust it with their most valuable workloads. In this respect, the company's ability to provide leading security requires that it strives to address the following business goals:</p>
                   <ul>
-                    <li>Keeps an accurate authoritative inventory of all assets</li>
-                    <li>Ensures all assets are secure by default</li>
-                    <li>Prevents assets that violate security compliance requirements from degrading Oracle Cloud's overall security posture</li>  
-                  </ul>
-                  <p>This all starts with knowing what the company must protect. Oracle Cloud cannot secure what it doesn't know exist. <span style="color:#4c4c4c;font-weight:bold">The top threat to the security of Oracle Cloud is a lack of an authoritative asset inventory and security reporting/assessment mechanism.</span> Historically, Oracle Cloud had a very loose definition of "production". It was too easy to launch services/instances without enabling security mechanisms. In the past, the company had depended on good intentions to enforce security requirements. There were no safeguards to catch non-conformities. While this is typical in smaller organizations, it was no longer satisfactory for a rapidly scaling business.</p>
-                  <h2>Business Goals</h2>
-                  <p>Inventory management is at the core of Oracle Cloud's security solution, and the company needed an application that could help it capture rapidly changing asset information, and used as the source of truth for all physical and virtual assets in Oracle Cloud's data centers. At the same time, this application should also serve as a security reporting/assessment service that could provide a centralized view of the security status for all tracked assets. Ideally, it would enable system owners, Oracle Cloud leadership, as well as Oracle Cloud Security and Compliance teams to understand the company's current security posture. It would automate security reporting for use in compliance audits, and will notify asset owners when remediation is required. At a high-level, the following were identified as the primary business goals:</p>
-                  <ul>
-                    <li><span style="color:#4c4c4c;font-weight:bold">Regulatory Adherence &amp Accreditation - </span>Keep Oracle Cloud out of legal complications and win more business.</li>
+                    <li><span style="color:#4c4c4c;font-weight:bold">Regulatory Adherence &amp; Accreditation - </span>Keep Oracle Cloud out of legal complications and win more business.</li>
                     <li><span style="color:#4c4c4c;font-weight:bold">OCI Security Bar - </span>Do the things necessary to secure our cloud.</li>
                     <li><span style="color:#4c4c4c;font-weight:bold">Rapid Security Response - </span>Fix all the bad things we find as efficiently as possible.</li>
                     <li><span style="color:#4c4c4c;font-weight:bold">Scalable Security Operations - </span>Keep up with 1, 2, and 3 as Oracle Cloud continues grow.</li>
                   </ul>
+                  <p>This all starts with knowing what the company must protect. OCI cannot secure what it doesn't know exist. <span style="color:#4c4c4c;font-weight:bold">In fact, the top threat to the security of Oracle Cloud is a lack of an authoritative asset inventory and security reporting/assessment mechanism.</span></p> 
+                  <h2>Introduction to Security Central</a>
+                  <p>Inventory management is at the core of OCI's security solution. The company needs an application that can help it capture rapidly changing asset information, and serve as the source of truth for all physical and virtual assets in OCI's data centers. At the same time, this application should also be a security reporting / assessment service that could provide a centralized view of the security status for all tracked assets. Ideally, it would enable OCI service owners, leadership, as well as Security and Compliance teams to understand the company's current security posture. It would automate security reporting for use in compliance audits, and notify asset owners when remediation is required. While Spotlight - OCI's legacy tool for inventory management - served as an effective inventory manager, it didn't quite do a good job at visualizing the desired centralized view of the organization's security posture.</p>
+                  <p>As such, Security Central has been introduced to become OCI's go-to security management service with the ultimate goal of becoming a "single-pane" interface for OCI service teams, leadership, and Security / Compliance teams to assess and understand OCI's assets' security / compliance status. In a nutshell, OCI service teams should be efficiently notified of security findings and accordingly provided with a clear path to remediation; leadership can quickly understand the security status of assets owned by their teams and services, aggregated at any level; and Security / Compliance relies on Security Central's daily findings reports to understand the risk to our compliance posture, giving them the ability to effectively generate reports for our auditors.</p>
+                  <p>In order to help bring these ideals to life, the Security Central UI/UX will require enhancements that span across various themes / areas outlined below.</p>
+                  <h2>Problem Statements</h2>
+                  <p>Below is a general outline of the different themes that are relevant and all play a role in determining how good OCI's security posture could be. <span style="color:#4c4c4c;font-weight:bold">These themes have been defined based on the analysis and consolidation of user data collected from user requirements meetings and user interviews.</span> Each one of these themes present certain challenges and user pain points - those of which will benefit from UI/UX enhancements as well as feature additions to the tool.</p>
+                  <ul>
+                    <li>Overall Security Posture &amp; Security Operations Management</li>
+                    <li>Vulnerability Findings Remediation / Patching Completeness</li>
+                    <li>Security Bar Performance Assessment</li>
+                  </ul>
+                  <h1>Overall Security Posture &amp; Security Operations Management</h1>
+                  <ul>
+                    <li>It is difficult for OCI service teams and their leaders today to quickly and seamlessly gain a data-driven / high-level insight into their team's / org's security posture, thereby enhancing the challenge of allocating resources effectively to areas that need overall security support.</li>
+                    <li>Likewise, the OCI Security team lacks a truly data-driven, seamless, and automated mechanism that will allow them to generate meaningful insights and metrics around their partner OCI service teams' security postures, thereby enhancing the challenge of efficiently supporting these teams in remediating their vulnerability findings. The existing support mechanism is very manual and heavily reliant on JIRA.</li>
+                    <li>•	It is also difficult for OCI service teams to grasp a high-level view of their asset inventory, and pinpoint areas / resources that are posing security issues. Again, this enhances the challenge of allocating resources effectively to areas that need overall security support.</li>
+                  </ul>
+                  <h1>Vulnerability Findings Remediation / Patching Completeness</h1>
+                  <ul>
+                    <li>OCI service teams are not proactively patching their resources early enough in the patching cycle. They are mostly acting reactively to their patching tickets escalating to Sev2 status, or worse, violating the published internal Patching SLA. The average percentage of patching tickets escalating to Sev2 status and risking violation of the published internal Patching SLA is high at over .... This maintains the risk of OCI not meeting security compliance at a worryingly level, potentially placing a big business impact on the company.</li>
+                  </ul>
+                  <h1>Security Bar Performance Assessment</h1>
+                  <ul>
+                    <li>It is difficult for OCI service teams and general OCI senior leadership to assess how well their org / team is doing in meeting the OCI Security Bar requirements, thereby enhancing the challenge of allocating resources effectively to areas that need overall security support. Security Bar is an interesting theme, because in a way it's a program that has been designed to cover aspects of both the two themes described above (i.e. patching completeness rate over a specific time interval is part of the Security Bar). However, it is necessary to give Security Bar its own theme as a way of emphasizing its significance - having been been repeatedly mentioned by users throughout our user interviews and requirements gathering sessions.</li>
+                  </ul> 
+
                   <h2>More Coming Soon...  </h2>              
                 </div>
                 <div class="clearfix post-footer">
