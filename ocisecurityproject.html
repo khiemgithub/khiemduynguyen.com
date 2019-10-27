@@ -153,22 +153,24 @@
                     <li><span style="color:#4c4c4c;font-weight:bold">Scalable Security Operations - </span>Keep up with 1, 2, and 3 as Oracle Cloud continues grow.</li>
                   </ul>
                   <p>This all starts with knowing what the company must protect. OCI cannot secure what it doesn't know exist. <span style="color:#4c4c4c;font-weight:bold">In fact, the top threat to the security of Oracle Cloud is a lack of an authoritative asset inventory and security reporting/assessment mechanism.</span></p> 
-                  <h2>Introduction to Security Central</a>
+                  <h2>Introduction to Security Central</h2>
                   <p>Inventory management is at the core of OCI's security solution. The company needs an application that can help it capture rapidly changing asset information, and serve as the source of truth for all physical and virtual assets in OCI's data centers. At the same time, this application should also be a security reporting / assessment service that could provide a centralized view of the security status for all tracked assets. Ideally, it would enable OCI service owners, leadership, as well as Security and Compliance teams to understand the company's current security posture. It would automate security reporting for use in compliance audits, and notify asset owners when remediation is required. While Spotlight - OCI's legacy tool for inventory management - served as an effective inventory manager, it didn't quite do a good job at visualizing the desired centralized view of the organization's security posture.</p>
                   <p>As such, Security Central has been introduced to become OCI's go-to security management service with the ultimate goal of becoming a "single-pane" interface for OCI service teams, leadership, and Security / Compliance teams to assess and understand OCI's assets' security / compliance status. In a nutshell, OCI service teams should be efficiently notified of security findings and accordingly provided with a clear path to remediation; leadership can quickly understand the security status of assets owned by their teams and services, aggregated at any level; and Security / Compliance relies on Security Central's daily findings reports to understand the risk to our compliance posture, giving them the ability to effectively generate reports for our auditors.</p>
-                  <p>In order to help bring these ideals to life, the Security Central UI/UX will require enhancements that span across various themes / areas outlined below.</p>
-                  <h2>Problem Statements</h2>
-                  <p>Below is a general outline of the different themes that are relevant and all play a role in determining how good OCI's security posture could be. <span style="color:#4c4c4c;font-weight:bold">These themes have been defined based on the analysis and consolidation of user data collected from user requirements meetings and user interviews.</span> Each one of these themes present certain challenges and user pain points - those of which will benefit from UI/UX enhancements as well as feature additions to the tool.</p>
+                  <p>In order to help bring these ideals to life, the Security Central UI/UX requires enhancements that span across various themes / areas outlined below.</p>
+                  <h2>Problem Statements &amp; User Personas</h2>
+                  <p>Below is a general outline of the different themes that are relevant and all play a role in determining how good OCI's security posture could be. <span style="color:#4c4c4c;font-weight:bold">Through an affinity diagramming exercise, these themes have been defined based on the user data collected from user requirements meetings and user interviews.</span> Each one of these themes present certain challenges and user pain points - those of which will benefit from UI/UX enhancements as well as feature additions to the tool.</p>
                   <ul>
                     <li>Overall Security Posture &amp; Security Operations Management</li>
                     <li>Vulnerability Findings Remediation / Patching Completeness</li>
                     <li>Security Bar Performance Assessment</li>
                   </ul>
+                  <img src="images/OCISECURITYimages/ocisecurityaffinity.jpg" alt="">
+                  &nbsp; 
                   <h1>Overall Security Posture &amp; Security Operations Management</h1>
                   <ul>
                     <li>It is difficult for OCI service teams and their leaders today to quickly and seamlessly gain a data-driven / high-level insight into their team's / org's security posture, thereby enhancing the challenge of allocating resources effectively to areas that need overall security support.</li>
                     <li>Likewise, the OCI Security team lacks a truly data-driven, seamless, and automated mechanism that will allow them to generate meaningful insights and metrics around their partner OCI service teams' security postures, thereby enhancing the challenge of efficiently supporting these teams in remediating their vulnerability findings. The existing support mechanism is very manual and heavily reliant on JIRA.</li>
-                    <li>•	It is also difficult for OCI service teams to grasp a high-level view of their asset inventory, and pinpoint areas / resources that are posing security issues. Again, this enhances the challenge of allocating resources effectively to areas that need overall security support.</li>
+                    <li>It is also difficult for OCI service teams to grasp a high-level view of their asset inventory, and pinpoint areas / resources that are posing security issues. Again, this enhances the challenge of allocating resources effectively to areas that need overall security support.</li>
                   </ul>
                   <h1>Vulnerability Findings Remediation / Patching Completeness</h1>
                   <ul>
@@ -178,6 +180,27 @@
                   <ul>
                     <li>It is difficult for OCI service teams and general OCI senior leadership to assess how well their org / team is doing in meeting the OCI Security Bar requirements, thereby enhancing the challenge of allocating resources effectively to areas that need overall security support. Security Bar is an interesting theme, because in a way it's a program that has been designed to cover aspects of both the two themes described above (i.e. patching completeness rate over a specific time interval is part of the Security Bar). However, it is necessary to give Security Bar its own theme as a way of emphasizing its significance - having been been repeatedly mentioned by users throughout our user interviews and requirements gathering sessions.</li>
                   </ul> 
+                  <h1>User Personas</h1>
+                  <p>Thinking through these themes and problems also lead to the identification of these primary user personas:</p>
+                  <h2>Design Goals</h2>
+                  <p>To help better direct and keep the UX direction focused, a set of design goals and corresponding success metric(s) have been crafted for each defined theme.</p>
+                  <img src="images/OCISECURITYimages/ocisecuritydesigngoals.png" alt="">
+                  &nbsp;
+                  <h2>User Goals &amp; Questions</h2>
+                  <p>One finding gathered from the user research process is that while all users possess the same big two mental model questions, to various degrees, they may come to Security Central with differing goals, needs, and more granular questions in mind.</p>
+                  <h1>Two Big Mental Model Questions</h1>
+                  <ul>
+                    <li>Is OCI secure?</li>
+                    <li>Is OCI security-compliant?</li>
+                  </ul>
+                  <h1>Granular Resource-Level User Questions</h1>
+                  <p>Below the top-level user questions above are more drilled down, granular questions users would ask as they advance through their workflows. <span style="color:#4c4c4c;font-weight:bold">Different questions asked by different groups of users, and it's important to precisely identify these connections (i.e. which user would ask what question, and why?) in order to better assess where the design priorities should be.</span> These questions are all directed and lead by a specific goal users strive to achieve by executing these workflows. A big table is created to consolidate all of this data. Below is one sliced portion of it:</p>
+                  <img src="images/OCISECURITYimages/ocisecurityusergoals.png" alt="">
+                  &nbsp;  
+
+              
+
+  
 
                   <h2>More Coming Soon...  </h2>              
                 </div>
