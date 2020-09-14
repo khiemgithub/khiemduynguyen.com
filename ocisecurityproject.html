@@ -88,13 +88,7 @@
                     </li>
                     <li><a href="inrixproject.html">INRIX Traffic</a>
                     </li>
-                    <li><a href="awsproject.html">AWS IoT</a>
-                    </li>
                     <li><a href="huskyproject.html">Husky Yum</a>
-                    </li>
-                    <li><a href="joomlaproject.html">Joomla</a>
-                    </li>
-                    <li><a href="pinkyproject.html">Pinky Swear</a>
                     </li>
                     <li><a href="revproject.html">Re.V</a>
                     </li>
@@ -115,8 +109,9 @@
         <div class="row">
           <div class="clearfix blog-banner-text blog-single-banner">
             <div class="col-md-12">
-              <h2 class="title">Work in progress...</h2>
+              <h2 class="title">Designing Oracle Cloud Security Central</h2>
               <ul class="clearfix blog-post-meta">
+                <li>September, 2019 - May 2020</li>
                 <li>Product Interaction Design
                 </li>
               </ul>
@@ -134,6 +129,133 @@
 
           <!-- post container start-->
             <div class="col-sm-8">
+              <article class="single-post-page">
+                <div class="thumb-wrap">
+                  <img src="images/OCISECURITYimages/ocisecurityintro.png" alt="">
+                </div>
+                <div class="single-post-content">
+                  <p class="italic">Larry Ellison speaking about the company's critical focus on Security (as part of its strategic investment into the cloud) at Oracle OpenWorld 2019 - Oracle's annual tech conference</p>
+                  <h2>The problem space</h2>
+                  <p>Keeping the Oracle Cloud secure is a task of paramount importance that holds a central role in Oracle's customer experience strategy. As an organization, possessing a robust security posture would provide Oracle Cloud with the foundation that enables customers to trust it with their most valuable workloads. In this respect, the company's ability to provide leading security requires that it possesses a seamless, effective, and accurate security tracking, reporting, and resolution mechanism.</p>
+                  <p>As a company, Oracle Cloud wasn't doing a very good job in this regards. In fact, in its older days, Oracle Cloud was facing a very common and critical problem:</p>
+                  <img src="images/OCISECURITYimages/ocisecurityproblem.png" alt="">
+                   &nbsp;
+                   <p>And it wasn't hard to trace down the cause of this problem:</p>
+                   <img src="images/OCISECURITYimages/ocisecuritycause.png" alt="">
+                   &nbsp;
+                   <p>In a nutshell, everything from security tracking, reporting, to resolution, was tracked and managed via third-party, human-driven tools such as Jira. The company was committing too many resources to such a manual effort, and it wasn't the kind of mechnanism that was suitable for a rapidly growing business that Oracle Cloud needed to be.</p>
+                  <h2>The users and their questions</h2>
+                  <p>To tackle this problem, a product team of two designers (including myself as the lead designer), three UI engineers, a product manager, a technical writer, and a partnering backend engineering unit were assembled to revamp Oracle Cloud's security tracking, reporting, and resolution experience. Overall, our work revolved around two primary users and their corresponding user stories:</p>
+                   <img src="images/OCISECURITYimages/ocisecurityteam1.png" alt="">
+                   &nbsp;
+                   <img src="images/OCISECURITYimages/ocisecurityteam2.png" alt="">
+                   &nbsp;
+                   <p>As we set out approach the problem from the start, we spent a lot of time talking to users to better understand their mental model. What we accordingly discovered was quite simple. Good security ultimately boils down to three big questions that an organization has to be able to answer:</p>
+                   <img src="images/OCISECURITYimages/ocisecurityusersquestions.png" alt="">
+                   &nbsp;
+                   <p>While the first two, which relate more to security tracking and reporting, would be more relevant to engineering managers. The second two are more than often asked by IC-level engineers - those who own the task of actually getting into the trenches and resolving the security issues themselves.</p>
+                  <h2>The technology and leadership direction</h2>
+                  <p>As a cloud provider, Oracle Cloud did recognize and validate this problem, and ultimately the company understood that the solution to this challenge would have to be through automation. Or, in the fancy words of our leadership, autonomous security.</p>
+                  <img src="images/OCISECURITYimages/ocisecuritydirection.png" alt="">
+                   &nbsp;
+                  <p>Simply speaking, what Oracle Cloud needed was to automate its security tracking and reporting processes, in order to enhance its security resolution mechanism and win more business. That essentially was the direction we received from the company's senior leadership. And it was basically how we envisoned Security Central as Oracle Cloud's go-to cloud security monitoring tool.</p>
+                  <img src="images/OCISECURITYimages/ocisecuritytech.png" alt="">
+                   &nbsp;
+                  <h2>Design goals</h2>
+                  <p>Every design project needs a guiding design goal. Through early conversations with our users and the team's initial understanding of the problem, the design goals we defined were very straightforward:</p>
+                  <img src="images/OCISECURITYimages/ocisecuritydesigngoal1.png" alt="">
+                   &nbsp;
+                   <img src="images/OCISECURITYimages/ocisecuritydesigngoal2.png" alt="">
+                   &nbsp;
+                   <h2>Success metrics</h2>
+                  <p>In order to better track and measure the progress of our UX/UI enhancements, we collaborated with product and business leaders to define certain product / business success metrics that were meant to help guide our overall product development directions:</p>
+                   <img src="images/OCISECURITYimages/ocisecuritysuccessmetrics.png" alt="">
+                   &nbsp;
+                  <h2>Early design</h2>
+                  <p>Conducting user research was extremely critical in opening more doors to better understanding users' contexts. Equipped with this knowledge gain, the design team produced early design sketches to visualize plausible user journeys / workflows and how different stages throughout these flows might be mapped to the defined user questions:</p>
+                  <img src="images/OCISECURITYimages/ocisecuritysketches.jpg" alt="">
+                  &nbsp; 
+                  <p>User journey mapping as an exercise created opportunities for the design and product team to expand further on the user workflows and envision how different interfaces / views could be designed to support them.</p>
+                  <h2>Competitive analysis</h2>
+                  <p>Part of understanding users and their context is understanding the ecosystem within which they operate, and part of understanding this ecosystem required an analysis of various competing providers of the same product, service, or simply solutions to similar UX problems. Competitive analysis was therefore a crucial aspect of the process. Not only did it serve as a source for creative inspiration, it also helped surface better understandings around what works and what doesn't, thereby revealing opportunities where unarticulated user needs might be addressed:</p>
+                  <img src="images/OCISECURITYimages/ocisecuritycompetition.png" alt="">
+                   &nbsp; 
+                  <p>Heuristic evaluation was a common exercise that often accompanied these competitive analyses:</p>
+                  <img src="images/OCISECURITYimages/ocisecurityheuristic.png" alt="">
+                  &nbsp;
+                  <h2>User testing</h2>
+                  <p>To avoid designing in a vacuum and ensure that a highly collaborative process was followed, coordination and support across all relevant stakeholders were involved. Amongst different stakeholder groups, users played the most critical role. They too were involved in the design process in the form of user testing.</p>
+                  <h1>Selected examples of how user testing helped to reveal design gaps and influence design directions</h1>
+                  &nbsp;
+                  <p>1.<span style="color:#4c4c4c;font-weight:bold"> Upcoming Key Dates</span> - Since Security Central's inception, users have repeatedly expressed a desire to have a "timeline visualization". Essentially, they needed an effective mechanism that could help provide better visibility into relevant security timelines (i.e. host patching) and the important dates / gates they should be aware of. Early design explorations made use of common time-related patterns such as the static vertical timeline component (top) or the calendar (bottom):</p>
+                  <img src="images/OCISECURITYimages/ocisecuritytimelinebefore.png" alt="">
+                  &nbsp;
+                  <p>User testing, however, revealed that:</p>
+                  <ul>
+                    <li>Users need a timeline view that spans across two consecutive months. Some cycles start on the 15th of every month and last for the entire thirty days.</li>
+                    <li>Rather than just telling them of upcoming due dates, users prefer the system to dynamically inform them whether they actually have to care about these due dates (based on their custom environments). For example, if they have completed host patching for the current cycle, they wouldn't have to worry about any upcoming patching-related due dates. Users need the system to communicate this message effectively.</li> 
+                    <li>Security is critical by nature, and users need to be (subtly) given a sense of urgency when it comes to security matters. Informing them of upcoming due dates is nice, but they need to better understand the implications / consequences of not hitting these due dates.</li>
+                    <li>The "timeline visualization" is an opportunity where users could be guided towards solutions for a set of particular issues. They have a deadline coming up, they know they have stuff to work on, they are informed of the implications of not addressing them, but where do they start? Again, such messaging needs to be intelligently communicated to users.</li>
+                  </ul>
+                  <p>These learnings in turn presented the design and product team with an opportunity to modify the "Upcoming Key Dates" card on the Summary Dashboard view in order to better serve user needs:</p>
+                  <img src="images/OCISECURITYimages/ocisecuritytimelineafter.png" alt="">
+                  &nbsp;
+                  <p>2.<span style="color:#4c4c4c;font-weight:bold"> My Organization</span> - Early user research studies have uncovered an opportunity for Security Central to provide a visualization of Oracle Cloud's security health across different business organizations and their corresponding leaders (VP-level). Essentially, users would like to view how an organization under a specific VP within Oracle Cloud is performing in terms of security, and how these aggregated data can drill down to the managers and teams that report up to that particular VP. Naturally, early design explorations made use of common organization-related components like the vertical org-chart view below:</p>
+                  <img src="images/OCISECURITYimages/ocisecurityorgbefore.png" alt="">
+                  &nbsp;
+                  <p>User testing, however, revealed that:</p>
+                  <ul>
+                    <li>Users have difficulties trying to quickly assess the view above and seamlessly pull the most critical numbers from it. Their attention is often distracted and scattered across the entire page, without the critical areas getting the attention they deserve.</li>
+                    <li>Using an org-chart view makes it difficult for users to conduct a holistic assessment of all the different direct reports and teams that report up to a specific leader. If a VP, for instance, has more than twenty direct reports, users would have to scroll down indefinitely in order to get all the data they need. They prefer to be able to achieve this goal with only a quick glance.</li>
+                    <li>The org-chart view leaves for too much unneccessary empty real estate.</li> 
+                  </ul>
+                  <p>These learnings in turn presented the design and product team with an opportunity to modify the "My Organization" view in order to better serve user needs:</p>
+                  <img src="images/OCISECURITYimages/ocisecurityorgafter.png" alt="">
+                  &nbsp;
+                  <p>Overall, approaching user testing with agility and the accompanying iterative user-centric design process have allowed us to improve Security Central's overall user experience. And these improvements are certainly tracked throughout the process:</p>
+                  <img src="images/OCISECURITYimages/ocisecurityimprovement1.png" alt="">
+                  &nbsp;
+                   <img src="images/OCISECURITYimages/ocisecurityimprovement2.png" alt="">
+                  &nbsp;
+                  <h2>High-fidelity design and prototype</h2>
+                  <p>A quick snapshot of a few high-fidelity prototypes created. These were used for a variety of purposes, including design-dev communication and leadership presentations.</p>
+                  <h1>Resolving a security issue</h1>
+                  &nbsp;
+                  <img src="images/OCISECURITYimages/ocisecuritytaskresolution.gif" alt="">
+                  &nbsp;
+                  <h1>Assessing a team's security health</h1>
+                  &nbsp;
+                  <img src="images/OCISECURITYimages/ocisecurityorghierarchy.gif" alt="">
+                  &nbsp;
+                  <h2>Design / Product Opportunities</h2>
+                  <p>Designing for Security Central was a super exciting project, as it presented endless opportunities where design and technology can join force to create a real impact for users and on the business. Throughout the design and development process, multiple areas have been identified as future design aspirations the team could take on to make Security Central an even more delightful tool for users:</p>  
+                  <p>1.<span style="color:#4c4c4c;font-weight:bold"> Better insights and visibility</span> - Data is consumed by people in many different ways. It can also be misinterpreted unintentionally if it’s not presented carefully. We have the ability to slice and dice and visualize data even further in a manner that can be easily glance-able, understood, and consumed by users to help them take action and complete their tasks successfully.</p>
+                  <p>2.<span style="color:#4c4c4c;font-weight:bold"> Birds-eye views</span> - What if users could see a birds-eye view of their organization’s security that is both interactive and displays relevant information along the path. See problem areas at-a-glance, tap into a section to view more details and take action without leaving the main page.</p>
+                  <p>3.<span style="color:#4c4c4c;font-weight:bold"> Anticipating actions and needs</span> - We know our users, their roles, and levels of permission. We have the opportunity to anticipate what they might need, present that information to them quickly and learn over time to improve the suggestions that we make to help our users find what they need and complete their tasks quickly.</p>
+                  <p>4.<span style="color:#4c4c4c;font-weight:bold"> Predictions and suggestions</span> - We have the ability to become a service to our customers by continuously working in the background to monitor internal and external data and make suggestions based on changing environments, situations and information needed to complete a task.</p>    
+                  <p>5.<span style="color:#4c4c4c;font-weight:bold"> Dynamic forecasting and adjusting</span> - We already integrated multiple databases and information across global teams. We have the ability to forecast needs and suggest how and where to make adjustments across the entire security process.</p>   
+                  <p>6.<span style="color:#4c4c4c;font-weight:bold"> Personable and human</span> - We already have a relationship with our users as they use our products and interact with our brand. Why not speak to them conversationally and present information in a way that feels personable and human. After all, our products work for our users, not the other way around. Our products offer a service to our users that helps them become more efficient in their jobs. Why not present information in a way that makes us feel like an extension of their team.</p>  
+                  <p>7.<span style="color:#4c4c4c;font-weight:bold"> Omni-channel collaboration</span> - Our users shouldn’t have to go to multiple locations and hoops to access the people that they need. We have the opportunity to provide one space where teams can collaborate and communicate to help each other complete multi-channel tasks more efficiently.</p>  
+                  <p>8.<span style="color:#4c4c4c;font-weight:bold"> Contextual content</span> - Don’t make users dig into different areas of the product to obtain different documents and information they need to complete a task. Show the relevant information in one place by seamlessly integrating information, documents, and functions into single, easy-to-consume views.</p>  
+                   <p>9.<span style="color:#4c4c4c;font-weight:bold"> Going external</span> - Security Central has proven its value with measurable benefits as an internal tool within Oracle Cloud. And there shouldn't be any limitations to what it can do for external customers as well. With Oracle Cloud offerings becoming increasingly diverse in breadth and depth, along with third-party integrations, customers will start caring deeply about the security health of their own built environments and systems on top of the Oracle Cloud infrastructure. Security Central, inevitably, will have the potential to become the one stop shop for all things security-lated consumable by external customers too.</p>     
+                  <h2>Special Bonus: Introducing Redwood</h2>
+                  <p>Oracle recently introduced its brand new user experience design language - Redwood - to the world at its 2019 OpenWorld conference. This marks an exciting beginning for the company and its brand, and is the fruit of one year worth of tireless creative exploration, execution, supported by collaborative efforts that span across various strategic organizational functional areas. With the launch of Redwood, Oracle's vision is to completely revamp its customer experience with its products and brand. In the words of an Oracle design executive:</p>
+                  <blockquote>"Redwood is for our products user interfaces and for telling our story. It's for both our digital and our physical experiences. It's a new design system for Oracle."</blockquote> 
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/fc6tCZlEOVo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <p id="ociconclusion">It truly is an exciting time to be a UX Designer at Oracle, and it certainly is a huge design opportunity for Security Central to elevate to an experience status that will not only be functional and reliable, but also usable and delightful in such a way that users will love and consistently emerge with a positive emotional outcome.</p>
+                </div>
+                <div class="clearfix post-footer">
+                <div class="left post-like"> <span class="numb">Like what you saw? SHARE IT :-)</span></div>
+                  <ul class="clearfix right share-post">
+                    <li><a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),'facebook-share-dialog','width=626,height=436');return false;"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li><a href="https://www.linkedin.com/shareArticle?mini=true&url=http://www.khiemduynguyen.com/awsproject.html" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    </li>
+                    <li><a href="https://twitter.com/intent/tweet?text=Usability%20Study%20For%20AWS%20IoT%20https://goo.gl/Ly0NUS%20@khiem9692"><i class="fa fa-twitter"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </article>
             </div> <!-- ./post container end-->
 
             <!-- Sidebar start-->
@@ -151,20 +273,8 @@
                       <span>May, 2016</span>
                     </li>
                     <li>
-                      <a href="awsproject.html">Usability Study For AWS IoT</a>
-                      <span>January, 2016 - March, 2016</span>
-                    </li>
-                    <li>
                       <a href="huskyproject.html">Husky Yum iOS App</a>
                       <span>September, 2015 - December, 2015</span>
-                    </li>
-                    <li>
-                      <a href="joomlaproject.html">Redesigning Joomla</a>
-                      <span>June, 2015 - June, 2016</span>
-                    </li>
-                    <li>
-                      <a href="pinkyproject.html">Pinky Swear Android App</a>
-                      <span>March, 2015 - March, 2016</span>
                     </li>
                     <li>
                       <a href="revproject.html">The Creation of Re.V</a>
